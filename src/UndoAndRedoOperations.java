@@ -15,7 +15,6 @@ public class UndoAndRedoOperations extends JFrame {
     JPanel p;
     Font myFont = new Font("Courier", Font.ITALIC,20);
     UndoManager manager = new UndoManager();
-
     public UndoAndRedoOperations()
     {
         p=new JPanel();
